@@ -24,6 +24,7 @@ DEPENDPATH += "/home/vshuper1298/sfml/SFML-master/include"
 
 SOURCES += \
         gamemodel.cpp \
+        imagesfactory.cpp \
         main.cpp \
         unit.cpp \
         view.cpp
@@ -36,6 +37,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     constants.h \
     gamemodel.h \
+    imagesfactory.h \
     observer.h \
     unit.h \
     view.h

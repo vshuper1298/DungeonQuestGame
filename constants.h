@@ -18,4 +18,10 @@ enum class TextureType
     FLOWER
 };
 
+enum class UnitType
+{
+    CHARACTER,
+    MONSTER
+};
+
 #endif // CONSTANTS_H
